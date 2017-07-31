@@ -15,6 +15,15 @@ Theme for Duranfruits
 
 Duranfruits theme based on Illdy theme.
 
+== Plugins List ==
+- acf-qtranslate
+- contact-form-7
+- illdy-companion
+- qtranslate-x
+- slider-image
+- wordpress-popup
+- wp-catalogue (modified)
+
 == Installation ==
 	
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
