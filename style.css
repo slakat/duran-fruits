@@ -1,0 +1,420 @@
+/*
+Theme Name: Duranfruits 
+Theme URI: http://colorlib.com/wp/themes/illdy/
+Author: Colorlib
+Author URI: http://colorlib.com
+Description: This theme was based on Illdy theme and modified exclusively for Duranfruits.
+Version: 1.0.35
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, e-commerce, portfolio
+Text Domain: Duranfruits
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+html, body {
+    height: 100%;    
+    margin: 0;
+}
+body {
+    display: table;
+    width: 100%;
+    min-height:100vh;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea{
+width: 100%;
+}
+
+/*TABLES*/
+.tg-duran  {border-collapse:collapse;border-spacing:0;}
+.tg-duran td{font-size:14px;padding:10px 5px;overflow:hidden;word-break:normal;}
+.tg-duran th{text-align:left;color: #000; font-size:16px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;}
+.tg-duran .tg-yw4l{vertical-align:top}
+.tg-duran .tg-o9ov{font-family:"Trebuchet MS", Helvetica, sans-serif !important;vertical-align:top}
+
+/*HEADER*/
+
+#header .top-header .header-navigation ul li.menu-item-has-children .sub-menu{
+     width: 100px;
+}
+
+.blue{
+    color: #355DA2 !important;
+}
+
+img.product-certification{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.about-us-images{
+    margin-bottom: 5%;
+}
+
+img.chile{
+    position: absolute;
+    height: 100%;
+    top: -20px;
+    right: -80px;
+    filter: grayscale(1);
+    opacity: 1;
+}
+
+img.our-images{
+    width: 100%;
+    height: 240px;
+    display: block;
+    float: right;
+    position: relative;
+    clear: right;
+    right: 100px;
+    margin-bottom: 20px
+}
+
+
+.duran-front-page{
+    margin-bottom: 3%;
+}
+
+p.front-description {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+p.front-description > span{
+    font-size: 17px;
+    line-height: 14px;
+}
+
+.duran-front-page h1{
+    font-size: 76px;
+    color: #355DA2;
+    font-family: "Trebuchet MS";
+    }
+
+.duran-front-page .purple{
+    width: auto;
+    height: 63px;
+    line-height: 63px;
+    background: #355DA2;
+    padding: 0 70px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.request-btn{
+    width: auto;
+    height: 32px;
+    line-height: 12px;
+    background: rgb(229,0,106);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    vertical-align: middle;
+}
+
+.duran-front-page .purple:hover, .request-btn:hover {
+    background: #203965;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+#footer .footer-logo{
+    width: 50%;
+    margin-bottom: 0;
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+}
+
+#header .top-header .header-navigation ul{
+    margin: 10px 0 0 0;
+}
+
+
+#header .top-header .header-navigation ul li a{
+    font-family: 'Source Sans Pro', sans-serif, "roboto";
+    font-size: 16px;
+    color: #355da2;
+    font-weight: 500;
+
+}
+.open-responsive-menu {
+    margin: -15px 0 0 0;
+}   
+
+.responsive-menu ul li a{
+    font-family: 'Source Sans Pro', sans-serif,"roboto";
+    font-size: 14px;
+    margin: 0;
+
+}
+
+.top-header{
+padding-bottom: 30px;
+padding-top: 10px;
+}
+
+.logo a, .logo a:visited{
+    color: #fff;
+}
+
+.logo a img{
+    width: 100px;
+}
+
+.logo > a > img{
+    width: 180px;
+    margin-top: -50px;
+    position: absolute;
+}
+
+
+#cover-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-size: cover;
+    position: absolute;
+    filter: brightness(.5);
+    -webkit-filter: brightness(.5);
+}
+
+#cover-image:after {
+    content: "";
+    /*background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABJJREFUCB1jYGBg+A/ExAHsKgFV7gH/ssPq5wAAAABJRU5ErkJggg==); /* or any other overlay image/color */*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+#header .bottom-header{
+    padding-top: 60px;
+}
+
+/*FOOTER*/
+
+#footer .widget .widget-title h3, #footer .widget ul li a, #footer .widget {
+    color: #fff;
+    font-size: 12px;
+    line-height: 10px;
+    padding-top: 10px;
+}
+
+#footer .widget .widget-title {
+        margin: 0 0 10px 0 !important;
+}
+
+#footer {
+    width: 100%;
+    background-color: #355DA2;
+    color: white;
+    padding: 10px 0;
+    font-size: 12px;
+    position:relative;
+    display: table-footer-group;
+    height: 1px; 
+    bottom: 30px;
+
+}
+
+
+#post-footer{
+    height: 30px;
+    background: #203965;
+    color: #fff;
+    display: flex;
+    position:relative;
+    width: 100%;
+}
+
+#post-footer p{
+    margin: auto;
+    font-size: 12px;
+}
+
+#header .bottom-header h2 {
+        margin: 0 0 0px 0;
+    line-height: 2;
+        font-size: 45px;
+        color: #000;
+}
+
+#catalogue-cover{
+    display: block;
+    width: 100%;
+    z-index: 0;
+    background-size: cover;
+    position: absolute;
+    filter: brightness(.5);
+    -webkit-filter: brightness(.5);
+    top: 100px;
+    height: 80px;
+    display: none;
+}
+
+#catalogue-cover:after {
+    content: "";
+    /*background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAABJJREFUCB1jYGBg+A/ExAHsKgFV7gH/ssPq5wAAAABJRU5ErkJggg==); /* or any other overlay image/color */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+#header .bottom-header.blog{
+    padding: 0 0;
+    /*padding-bottom: 40px;*/
+        padding-bottom: 0px;
+    margin-bottom: -40px;
+}
+
+/*CAATALOGUE*/
+
+.wpc-img img {
+  max-width: 100%;
+  filter:contrast(100%);
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.wpc-img:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  filter:contrast(190%);
+}
+
+.wpc-title a{
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    background: none;
+    font-family: "Trebuchet MS", 'Source Sans Pro', sans-serif,'roboto';
+    text-align: -webkit-auto;
+    margin: 0 auto;
+}
+
+.wpc-title a:hover{
+    color:#470049;
+}
+
+p.wpc-title{
+        line-height: 0;
+    margin: 0px 0;
+        text-align: center;
+}
+
+.product-img-view img{
+    min-height: 358px;
+    min-width: 500px;
+}
+
+.wpc-product-img{
+    float: left;
+}
+
+.product-img-view{
+    width: 500px;
+    height: 358px;
+}
+
+#wpc-catalogue-wrapper {
+        margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#blog .col-sm-12.fruits {
+    margin-top: -30px;
+}
+
+#wpc-col-1{
+    margin-bottom: 50px;
+}
+
+.wpc-product{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wpc-img{
+        margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+/*media*/
+@media only screen and (max-width: 767px) {
+    .duran-front-page h1 {
+        font-size: 46px;
+    }
+
+    .duran-front-page h2 span {
+        font-size: 20px;
+    }
+
+    .huge_it_slideshow_image_wrap_1 {
+        max-width: 280px !important;
+    }
+
+    .wp-catalogue-breadcrumb{
+        padding-left: 20px;
+    }
+
+    .product-img-view{
+            width: 95%;
+    height: 358px;
+    margin-left: 2.5%;
+    }
+
+    .wpc-product img, .product-img-view img, .wpc-product-img img{
+            overflow-x: hidden;
+    }
+
+    .wpc-product-img {
+    width: 100%;
+    float: none;
+    display: flex;
+    }
+
+    .new-prdct-img {
+        border: #dcdbdb 5px solid;
+    margin-bottom: 8px;
+    font-size: 0;
+    line-height: 0;
+    width: 30%;
+    height: auto;
+
+    overflow: hidden;
+    margin: 0 auto;
+    }
+}
